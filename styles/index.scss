@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
 @import "./menu";
 @import "./section";
+@import "./section-contacts";
 
 body {
   font-family: "Pushster", cursive;
@@ -34,4 +35,29 @@ input {
 
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .section {
+    &-menu {
+      width: 150px;
+      height: 150px;
+      bottom: 10px;
+      right: 10px;
+      & > li {
+        transform: rotate(0deg) translateX(60px);
+        transform-origin: 75px;
+      }
+      & > li > a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+      }
+    }
+    &-toggle {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
 }
