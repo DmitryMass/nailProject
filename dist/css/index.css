@@ -358,6 +358,30 @@ header {
   box-shadow: 0 5px 6px cornflowerblue;
 }
 
+.section-menu > li > .icon-theme1:hover {
+  color: #be16f1;
+}
+
+.section-menu > li > .icon-theme2:hover {
+  color: #f04c83;
+}
+
+.section-menu > li > .icon-theme3:hover {
+  color: #dbfd44;
+}
+
+.section-menu > li > .icon-theme4:hover {
+  color: #5af7ad;
+}
+
+.section-menu > li > .icon-theme5:hover {
+  color: #f7ac23;
+}
+
+.section-menu > li > .icon-theme6:hover {
+  color: #006eff;
+}
+
 .section-toggle {
   width: 80px;
   height: 80px;

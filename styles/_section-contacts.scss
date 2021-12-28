@@ -35,10 +35,39 @@
       transition: 0.5s;
       background-color: #9e9ee0;
       font-size: 32px;
-
       &:hover {
         color: rgb(253, 255, 108);
         box-shadow: 0 5px 6px cornflowerblue;
+      }
+    }
+    & > li > .icon-theme1 {
+      &:hover {
+        color: rgb(190, 22, 241);
+      }
+    }
+    & > li > .icon-theme2 {
+      &:hover {
+        color: rgb(240, 76, 131);
+      }
+    }
+    & > li > .icon-theme3 {
+      &:hover {
+        color: rgb(219, 253, 68);
+      }
+    }
+    & > li > .icon-theme4 {
+      &:hover {
+        color: rgb(90, 247, 173);
+      }
+    }
+    & > li > .icon-theme5 {
+      &:hover {
+        color: rgb(247, 172, 35);
+      }
+    }
+    & > li > .icon-theme6 {
+      &:hover {
+        color: rgb(0, 110, 255);
       }
     }
   }
