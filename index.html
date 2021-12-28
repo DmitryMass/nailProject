@@ -12,15 +12,47 @@
       <header>
         <div class="container flex-container">
           <div class="toggle"></div>
+          <div class="dropdown-menu">
+            <input
+              class="dropdown-name"
+              placeholder="AlinaTiagun Nails"
+              readonly
+            />
+            <div class="dropdown-option">
+              <div onclick="show('About me')">
+                <ion-icon name="accessibility-outline"></ion-icon>About me
+              </div>
+              <div onclick="show('Albums')">
+                <ion-icon name="albums-outline"></ion-icon>Albums
+              </div>
+              <div onclick="show('Sign up')">
+                <ion-icon name="log-in-outline"></ion-icon>Sign up
+              </div>
+              <div onclick="show('Reviews')">
+                <ion-icon name="ear-outline"></ion-icon>Reviews
+              </div>
+              <div onclick="show('Contact')">
+                <ion-icon name="call-outline"></ion-icon>Contact
+              </div>
+            </div>
+          </div>
         </div>
       </header>
     </div>
     <ul class="navigation">
       <li><a class="nail-link" href="">Menu</a></li>
       <li><a class="nail-link" href="">Nail</a></li>
-      <li><a class="nail-link" href="">Запись</a></li>
+      <li><a class="nail-link" href="">Albums</a></li>
       <li><a class="nail-link" href="">About</a></li>
     </ul>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <script defer src="./main.js"></script>
   </body>
 </html>
